@@ -75,6 +75,7 @@ jobs:
   JIN_03:
     docker:
       - image: cimg/python:3.8
+    <<: *commonSteps
     steps:
       - checkout
   JIN_04:
